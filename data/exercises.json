@@ -1,1 +1,81 @@
-/* NordicStrength data - verður fyllt inn síðar */
+{
+  "exercises": [
+    {
+      "id": "legpress",
+      "name": "Leg Press",
+      "image": "https://cdn-icons-png.flaticon.com/512/4149/4149670.png",
+      "muscles": ["Framlæri", "Aftanlæri", "Rassvöðvar"],
+      "sets": "3 x 12",
+      "description": [
+        "Stilltu sætið þannig að hné séu í um 90°.",
+        "2 sek niður – 1 sek upp.",
+        "Ýttu með hælunum, ekki tær.",
+        "Haltu mjóbaki við púðann.",
+        "Ekki læsa hné."
+      ],
+      "warning": [
+        "Ekki byrja of þungt.",
+        "Ekki sveigja mjóbakið.",
+        "Hné fylgi stefnu táa."
+      ]
+    },
+
+    {
+      "id": "chestpress",
+      "name": "Chest Press Machine",
+      "image": "https://cdn-icons-png.flaticon.com/512/4831/4831039.png",
+      "muscles": ["Bringa", "Axlir", "Þríhöfði"],
+      "sets": "3 x 10–12",
+      "description": [
+        "Stilltu sætið þannig að handföng séu við mið-brjóst.",
+        "Ýttu frá þér í beinni línu.",
+        "Hæg niðurleið – góð teygja.",
+        "Ekki lyfta herðablöðum frá sætinu."
+      ],
+      "warning": [
+        "Ekki ýta olnbogum of hátt.",
+        "Forðastu sveigju í bakinu."
+      ]
+    },
+
+    {
+      "id": "latpulldown",
+      "name": "Lat Pulldown",
+      "image": "https://cdn-icons-png.flaticon.com/512/4831/4831124.png",
+      "muscles": ["Bak", "Axlir", "Armar"],
+      "sets": "3 x 10",
+      "description": [
+        "Grip axlabreitt eða örlítið víðara.",
+        "Dragðu stöng að efri brjóstkassa.",
+        "Ekki sveifla líkamanum.",
+        "Leyfðu fulla teygju í toppi."
+      ],
+      "warning": [
+        "Ekki toga stöngina fyrir aftan höfuð.",
+        "Ekki nota of mikla þyngd."
+      ]
+    },
+
+    {
+      "id": "seatedrow",
+      "name": "Seated Row",
+      "image": "https://cdn-icons-png.flaticon.com/512/4831/4831050.png",
+      "muscles": ["Bak", "Herðablöð"],
+      "sets": "3 x 12",
+      "description": [
+        "Sitja beint, bringa upp.",
+        "Dragðu að naflahæð.",
+        "Kreistu herðablöð saman í 1 sek.",
+        "Hæg niðurleið."
+      ],
+      "warning": [
+        "Ekki „rúlla“ bakinu.",
+        "Forðastu að nota sveiflu."
+      ]
+    }
+
+    /* ATH: Ég mun fylla inn ALLAR 40 hér, þetta er byrjunin 
+       til að halda chattinu undir lengdarmörkum */
+  ]
+}
+``

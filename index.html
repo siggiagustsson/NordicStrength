@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>NordicStrength 2026</title>
+
+<!-- PWA manifest -->
+<link rel="manifest" href="manifest.json" />
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #131518; /* steel dark */
+        color: #E6E6E6;
+    }
+
+    .header {
+        background: #0D0F12;
+        color: #00E5FF; /* electric cyan */
+        padding: 26px;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.6);
+    }
+
+    .container {
+        margin: 20px;
+    }
+
+    .card {
+        background: #1A1D22;
+        padding: 18px;
+        margin-bottom: 18px;
+        border-radius: 14px;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.5);
+        font-size: 20px;
+        color: #00E5FF;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    .card:hover {
+        background: #22262C;
+        transform: scale(1.02);
+    }
+</style>
+
+<script>
+function openPage(page) {
+    window.location.href = page;
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="header">NordicStrength 2026</div>
+
+<div class="container">
+
+    <div class="card" onclick="openPage('days/day1.html')">
+        Dagur 1 — Full Body
+    </div>
+
+    <div class="card" onclick="openPage('days/day2.html')">
+        Dagur 2 — Skúrstyrkur
+    </div>
+
+    <div class="card" onclick="openPage('days/day3.html')">
+        Dagur 3 — Full Body B
+    </div>
+
+    <div class="card" onclick="openPage('days/day4.html')">
+        Dagur 4 — Trainer / Þol
+    </div>
+
+    <div class="card" onclick="openPage('exercises.html')">
+        Æfingabanki
+    </div>
+
+    <div class="card" onclick="openPage('matarplan.html')">
+        Matarplan
+    </div>
+
+    <div class="card" onclick="openPage('framfarir.html')">
+        Framfarir
+    </div>
+
+    <div class="card" onclick="openPage('notes.html')">
+        Notes
+    </div>
+
+</div>
+
+</body>
+</html>
